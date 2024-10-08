@@ -52,7 +52,7 @@ public class Desafio {
     public static double receberValor(double saldoInicial, double valorDaTranferencia) {
         if (valorDaTranferencia >= 0) {
             System.out.println("Tranferência recebida com sucesso!");
-            return saldoInicial = saldoInicial + valorDaTranferencia;
+            return saldoInicial + valorDaTranferencia;
         } else {
             System.out.println("Não é possivel realizar o recebimento de valor negativo!");
             return saldoInicial;
@@ -62,7 +62,7 @@ public class Desafio {
     public static double tranferirValor(double saldoInicial, double valorDaTranferencia) {
         if (saldoInicial >= valorDaTranferencia) {
             System.out.println("Transferência realizada com sucesso!");
-            return saldoInicial = saldoInicial - valorDaTranferencia;
+            return saldoInicial - valorDaTranferencia;
         }
         else {
             System.out.println("Voce não tem saldo suficinete para esta transação!");
